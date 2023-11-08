@@ -1,11 +1,11 @@
 {
-  "name": "@digitalbazaar/ecdsa-2019-cryptosuite",
-  "version": "2.0.1-0",
-  "description": "An ECDSA-2019 Data Integrity cryptosuite for use with jsonld-signatures.",
-  "homepage": "https://github.com/digitalbazaar/ecdsa-2019-cryptosuite",
+  "name": "@digitalbazaar/ecdsa-rdfc-2019-cryptosuite",
+  "version": "0.0.0-1",
+  "description": "An ECDSA-RDFC-2019 Data Integrity cryptosuite for use with jsonld-signatures.",
+  "homepage": "https://github.com/digitalbazaar/ecdsa-rdfc-2019-cryptosuite",
   "repository": {
     "type": "git",
-    "url": "https://github.com/digitalbazaar/ecdsa-2019-cryptosuite"
+    "url": "https://github.com/digitalbazaar/ecdsa-rdfc-2019-cryptosuite"
   },
   "license": "BSD-3-Clause",
   "type": "module",
@@ -42,7 +42,7 @@
     "webpack": "^5.73.0"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "scripts": {
     "test": "npm run test-node",

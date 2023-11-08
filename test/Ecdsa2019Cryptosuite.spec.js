@@ -23,7 +23,7 @@ describe('Ecdsa2019Cryptosuite', () => {
   describe('exports', () => {
     it('it should have proper exports', async () => {
       should.exist(ecdsa2019Cryptosuite);
-      ecdsa2019Cryptosuite.name.should.equal('ecdsa-2019');
+      ecdsa2019Cryptosuite.name.should.equal('ecdsa-rdfc-2019');
       ecdsa2019Cryptosuite.requiredAlgorithm.should.eql(['P-256', 'P-384']);
       ecdsa2019Cryptosuite.canonize.should.be.a('function');
       ecdsa2019Cryptosuite.createVerifier.should.be.a('function');
