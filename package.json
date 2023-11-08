@@ -14,12 +14,12 @@
     "lib/**/*.js"
   ],
   "dependencies": {
-    "@digitalbazaar/ecdsa-multikey": "^1.1.1",
-    "jsonld": "^8.1.0"
+    "@digitalbazaar/ecdsa-multikey": "^1.6.0",
+    "jsonld": "^8.3.1"
   },
   "devDependencies": {
     "@digitalbazaar/data-integrity": "^1.5.0",
-    "@digitalbazaar/data-integrity-context": "^1.0.0",
+    "@digitalbazaar/data-integrity-context": "digitalbazaar/data-integrity-context#drop-support-for-node-16",
     "@digitalbazaar/multikey-context": "^1.0.0",
     "@digitalbazaar/security-document-loader": "^2.0.0",
     "c8": "^7.11.3",
@@ -29,8 +29,8 @@
     "eslint-config-digitalbazaar": "^5.0.1",
     "eslint-plugin-jsdoc": "^46.8.2",
     "eslint-plugin-unicorn": "^49.0.0",
-    "jsonld-signatures": "^11.0.0",
-    "karma": "^6.3.20",
+    "jsonld-signatures": "^11.2.1",
+    "karma": "^6.4.2",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^3.1.1",
     "karma-mocha": "^2.0.1",
