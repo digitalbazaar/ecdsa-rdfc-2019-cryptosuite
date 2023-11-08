@@ -165,4 +165,4 @@ Digital Bazaar: support@digitalbazaar.com
 
 ## License
 
-[New BSD License (3-clause)](LICENSE) © 2022 Digital Bazaar
+[New BSD License (3-clause)](LICENSE) © 2023 Digital Bazaar
