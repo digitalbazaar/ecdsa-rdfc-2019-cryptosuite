@@ -144,7 +144,7 @@ const signedCredential = await jsigs.sign(unsignedCredential, {
     "verificationMethod": "https://example.edu/issuers/565049#zDnaekGZTbQBerwcehBSXLqAg6s55hVEBms1zFy89VHXtJSa9",
     "cryptosuite": "ecdsa-rdfc-2019",
     "proofPurpose": "assertionMethod",
-    "proofValue": "z3MrzbvzXyBNDd9KNCJQHzHrct7LMi9Vs4TatKA81fjvVq3dbGsLE4VMyfNnx42Bdoq1ALHAXbB2fDtmioNagHbcZ"
+    "proofValue": "z5grbn9Tp8xC7p6LpmUdxxRdAx37azC2GQDdHBqq7ivFsaFUJtC81b8puwe2NmaEUYpxXQooXNnXL3M2NqySrzC5Z"
   }
 }
 ```
