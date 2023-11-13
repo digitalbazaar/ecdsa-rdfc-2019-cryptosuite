@@ -1,6 +1,6 @@
 # @digitalbazaar/ecdsa-rdfc-2019-cryptosuite Changelog
 
-## 1.0.1 - 2023-11-13
+## 1.0.1 - 2023-11-xx
 
 ### Fixed
 - Fix release version.
