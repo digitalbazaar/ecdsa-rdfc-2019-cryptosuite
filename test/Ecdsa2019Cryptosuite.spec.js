@@ -1,5 +1,5 @@
 /*!
- * Copyright (c) 2023 Digital Bazaar, Inc. All rights reserved.
+ * Copyright (c) 2023-2024 Digital Bazaar, Inc. All rights reserved.
  */
 import {expect} from 'chai';
 
@@ -31,7 +31,7 @@ describe('Ecdsa2019Cryptosuite', () => {
   });
 
   describe('canonize()', () => {
-    it('should canonize using URDNA2015 w/ n-quads', async () => {
+    it('should canonize using RDFC-1.0 w/ n-quads', async () => {
       const unsignedCredential = JSON.parse(JSON.stringify(credential));
 
       let result;
@@ -40,6 +40,7 @@ describe('Ecdsa2019Cryptosuite', () => {
         result = await ecdsa2019Cryptosuite.canonize(
           unsignedCredential, {documentLoader});
       } catch(e) {
+        console.log('e', e);
         error = e;
       }
 
