@@ -13,13 +13,17 @@
   "files": [
     "lib/**/*.js"
   ],
+  "browser": {
+    "crypto": false,
+    "./lib/sha.js": "./lib/sha-browser.js"
+  },
   "dependencies": {
     "@digitalbazaar/ecdsa-multikey": "^1.6.0",
     "jsonld": "^8.3.1",
     "rdf-canonize": "^4.0.1"
   },
   "devDependencies": {
-    "@digitalbazaar/data-integrity": "^2.0.0",
+    "@digitalbazaar/data-integrity": "^2.3.0",
     "@digitalbazaar/data-integrity-context": "^2.0.0",
     "@digitalbazaar/did-method-key": "^5.2.0",
     "@digitalbazaar/multikey-context": "^2.0.1",
