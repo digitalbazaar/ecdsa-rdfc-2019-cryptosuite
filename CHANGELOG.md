@@ -1,5 +1,10 @@
 # @digitalbazaar/ecdsa-rdfc-2019-cryptosuite Changelog
 
+## 1.1.1 - 2024-08-dd
+
+### Fixed
+- Ensure SHA-384 is used when using P-384 keys.
+
 ## 1.1.0 - 2024-08-01
 
 ### Changed

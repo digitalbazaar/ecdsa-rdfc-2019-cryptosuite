@@ -63,6 +63,7 @@ function addTests({curve, keyMaterial, signedFixture}) {
       purpose: new AssertionProofPurpose(),
       documentLoader
     });
+
     expect(result.verified).to.be.true;
   });
 
