@@ -4,10 +4,10 @@
 import * as didMethodKey from '@digitalbazaar/did-method-key';
 import * as EcdsaMultikey from '@digitalbazaar/ecdsa-multikey';
 import {
+  citizenshipV4RC1Context,
   controllerDocEcdsaMultikey,
   ecdsaMultikeyKeyPair,
-  mockPublicEcdsaMultikey,
-  citizenshipV4RC1Context
+  mockPublicEcdsaMultikey
 } from './mock-data.js';
 import {CachedResolver} from '@digitalbazaar/did-io';
 import dataIntegrityContext from '@digitalbazaar/data-integrity-context';
