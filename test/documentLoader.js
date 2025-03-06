@@ -1,5 +1,5 @@
 /*!
- * Copyright (c) 2023-2024 Digital Bazaar, Inc. All rights reserved.
+ * Copyright (c) 2023-2025 Digital Bazaar, Inc. All rights reserved.
  */
 import * as didMethodKey from '@digitalbazaar/did-method-key';
 import * as EcdsaMultikey from '@digitalbazaar/ecdsa-multikey';
@@ -7,6 +7,7 @@ import {
   controllerDocEcdsaMultikey,
   ecdsaMultikeyKeyPair,
   mockPublicEcdsaMultikey,
+  citizenshipV4RC1Context
 } from './mock-data.js';
 import {CachedResolver} from '@digitalbazaar/did-io';
 import dataIntegrityContext from '@digitalbazaar/data-integrity-context';
@@ -55,3 +56,7 @@ loader.addStatic(
       '@vocab': 'https://www.w3.org/ns/credentials/examples#'
     }
   });
+
+loader.addStatic(
+  'https://w3id.org/citizenship/v4rc1',
+  citizenshipV4RC1Context);
