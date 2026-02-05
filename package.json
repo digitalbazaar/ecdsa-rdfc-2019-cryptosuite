@@ -1,6 +1,6 @@
 {
   "name": "@digitalbazaar/ecdsa-rdfc-2019-cryptosuite",
-  "version": "1.2.1-0",
+  "version": "1.3.0",
   "description": "An ECDSA-RDFC-2019 Data Integrity cryptosuite for use with jsonld-signatures.",
   "homepage": "https://github.com/digitalbazaar/ecdsa-rdfc-2019-cryptosuite",
   "repository": {
