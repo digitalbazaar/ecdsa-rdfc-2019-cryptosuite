@@ -1,6 +1,6 @@
 # @digitalbazaar/ecdsa-rdfc-2019-cryptosuite Changelog
 
-## 1.3.0 - 2026-02-xx
+## 1.3.0 - 2026-02-05
 
 ### Changed
 - Update dependencies:
